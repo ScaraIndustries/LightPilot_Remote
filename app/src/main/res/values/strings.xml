@@ -1,0 +1,137 @@
+<resources>
+    //Main activity
+    <string name="app_name">Light Pilot</string>
+    <string name="app_version">Version</string>
+    <string name="app_version_number">0.1</string>
+
+    //Light manager activity
+    <string name="light_manager_activity_title">Light Manager</string>
+    <string name="device_light_color">Color</string>
+    <string name="device_light_effect">Effect</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="color_dialog_title">Choose color</string>
+
+    //Device manager activity
+    <string name="device_manager_activity_title">Device Manager</string>
+    <string name="add_device">Add</string>
+    <string name="scan_network">Scan</string>
+    <string name="device_name">Name</string>
+    <string name="device_status">Status</string>
+    <string-array name="device_status_titles">
+        <item>managed</item>
+        <item>not managed</item>
+    </string-array>
+    <string-array name="device_status_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="device_power_state">Power state</string>
+    <string name="device_power_state_value_1">On</string>
+    <string name="device_power_state_value_2">Off</string>
+    <string name="device_power_state_value_3">Standby</string>
+    <string name="device_option">Option</string>
+    <string name="device_option_value_1">Remove</string>
+    <string name="device_option_value_2">Rename</string>
+
+    //Settings activity
+    <string name="settings_activity_title">Settings</string>
+    <string name="picker_style">Picker style</string>
+    <string name="picker_style_value_1">Flower</string>
+    <string name="picker_style_value_2">Circle</string>
+    <string name="background_style">Background style</string>
+    <string name="background_style_value_1">Dark</string>
+    <string name="background_style_value_2">Light</string>
+
+    //About activity
+    <string name="about_activity_title">About</string>
+    <string name="author">Author</string>
+    <string name="author_value">Scara Industries</string>
+    <string name="release_date">Release date</string>
+    <string name="release_date_value">April 2017</string>
+    <string name="copyright">Copyright</string>
+    <string name="copyright_value">probably apache 2.0</string>
+    <string name="website">Website</string>
+    <string name="website_value">no website yet</string>
+
+    //automatic generation garbage
+    <string name="title_activity_light_manager">LightManagerActivity</string>
+    <string name="title_activity_device_manager">DeviceManagerActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
